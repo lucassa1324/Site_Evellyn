@@ -1,115 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="src/main.css">
     <link rel="stylesheet" href="">
     <link rel="shortcut icon" href="images/Evellyn Logo.png" type="image/x-icon">
-    <script src="https://cdn.tailwindcss.com"></script>
-    
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
     <title>Studio Evellyn Barros</title>
 </head>
+
 <body>
-   
-    <header class="Flex 1">
-       
-      
-        
-        
-            <img src="images/Evellyn Logo.png" alt="" class="">
-         
-       
-        
+    <section class="bg-photo min-h-[60vh] p-12">
+        <header class="h-[150px] flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <img src="./images/Evellyn Logo.png" alt="" class="">
 
-            <h1 class="font-normal text-4xl">STUDIO EVELLYN BARROS</h1>
-            
-            
-            <p>Leve como o ar, Desenhos delicados e etéreos em sobrancelhas: arte feita com carinho e precisão.</p>
-      
-        
-        <nav>
-            <a href="#philosophy">Início</a>
-            <a href="#gallery">Galeria</a>
-            <a href="#about">Sobre</a>
-            <a href="#appointments">Agendamentos</a>
-        </nav>        
+                <h1 class="font-normal text-4xl">STUDIO EVELLYN BARROS</h1>
+            </div>
 
-                
-    </header>          
-    
+
+            <nav>
+                <a href="#philosophy">Início</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#about">Sobre</a>
+                <a href="#appointments">Agendamentos</a>
+            </nav>
+        </header>
+
+        <div class="grid place-items-center mt-20 font-chivo text-white">
+            <span class="text-xs">Leve como o ar</span>
+            <span class="text-3xl max-w-[450px] text-center">Desenhos delicados e etéreos em sobrancelhas: arte feita
+                com
+                carinho e
+                precisão.</span>
+        </div>
+    </section>
+
     <section id="philosophy" class="philosophy">
         <div class="filosofia">
             <span class="filosofia_texto">
                 <h2>Nossa Filosofia</h2>
-                <p>No Studio Evellyn Barros, acreditamos em realçar a beleza natural de cada cliente com cuidado, dedicação e técnicas modernas.</p>
-            </span>    
+                <p>No Studio Evellyn Barros, acreditamos em realçar a beleza natural de cada cliente com cuidado,
+                    dedicação e técnicas modernas.</p>
+            </span>
             <img src="images/Evellyn.jpeg" alt="" class="Evellyn">
         </div>
     </section>
 
     <section id="appointments" class="appointments">
         <span>
-           <h1>NOSSOS SERVIÇOS</h1>  
-        </span>  
-        
+            <h1>NOSSOS SERVIÇOS</h1>
+        </span>
+
         <div>
             <h2>AGENDE JÀ SEU HORÁRIO!</h2>
             <a href="pages/agendamento.html" class="botAgendar">AGENDAR HORÁRIO</a>
         </div>
     </section>
 
-    <section id="gallery" class="gallery ">
-        
-           
+    <section id="gallery" class="gallery">
+
+
         <div class="flex w-full">
             <a href="">
-                <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.31.jpeg" alt="Trabalho 1">
+                <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.31.jpeg" alt="Trabalho 1" class="">
             </a>
-            
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.32 (1).jpeg" alt="Trabalho 2">
             </a>
-            
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.32 (2).jpeg" alt="Trabalho 3">
             </a>
-            
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.32 (4).jpeg" alt="Trabalho 4">
             </a>
-            
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.32 (5).jpeg" alt="Trabalho 4">
             </a>
-            
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.32.jpeg" alt="Trabalho 4">
             </a>
-        
+
             <a href="">
                 <img src="images/Sobrancelhas/WhatsApp Image 2024-12-06 at 07.29.33.jpeg" alt="Trabalho 4">
             </a>
         </div>
-              
+
     </section>
 
-    <footer class="flex w-full h-96">
+    <footer class="flex flex-col w-full h-96 p-16 gap-4 font-chivo">
+        <div class="my-16 flex justify-around">
+            <span>Novidades em sobrancelhas? Fique por dentro!</span>
 
-        <div class="flex">
-            <div class="flex-none w-14">
-                <p class="">PÁGINAS</p>
-                <a href="pages/agendamento.html">Agendamento</a>
-                <a href="pages/galeria.html">Galeria</a>
-                <a href="pages/">Sobre</a>
+            <div class="flex gap-36">
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        Páginas
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="pages/agendamento.html">Agendamento</a>
+                        <a href="pages/galeria.html">Galeria</a>
+                        <a href="pages/">Sobre</a>
+                    </div>
+                </div>
+
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        SIGA-NOS nas redes sociais
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="https://instagram.com/">
+                            <i class="ph ph-instagram-logo text-2xl"></i>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="ph ph-tiktok-logo text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-                
-            
-            <p>SIGA-NOS NAS REDES SOCIAIS</p>
-
         </div>
-
-        <p class="items-end">&copy; 2024 Lucas Sá - Todos os direitos reservados.</p>
+        <div>
+            &copy; 2024 Lucas Sá - Todos os direitos reservados.
+        </div>
     </footer>
 </body>
+
 </html>
