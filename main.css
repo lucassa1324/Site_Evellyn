@@ -1,0 +1,201 @@
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+header {
+    background-image: url("images/aether_hero_img.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-size: 20px;
+    height: 33rem;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+header img {
+    width: 5rem;
+    height: 5rem;
+    margin-top: -27rem;
+}
+
+header nav{
+    margin-top: -23rem;
+    width: 33rem;
+}
+
+header p {
+    margin-bottom: -20rem;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header h1 {
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: -23rem;
+    width: 36rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+
+
+/*===================APRESENTAÇÃO================*/
+.apresentation{
+    background-color: #f9f9f9;
+
+}
+
+
+/* ===================Filosofia ==================== */
+.philosophy {
+    background-color: #414350;
+    height: 600px;
+    
+}
+
+.philosophy h2{
+
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    
+
+}
+
+.filosofia{
+    max-width: 800px;
+    width: 600;
+    margin: 1rem auto;
+    padding-left: 2rem;
+    font-family: "Gentium Plus", serif;
+    color: rgb(64, 67, 80);
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    text-align: left;
+    align-items: center;
+}
+
+.Evellyn{
+    width: 400px;
+    
+}
+
+
+
+
+/*==========agendamento============*/
+.appointments {
+    background-color: #f7eee5;
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #a7755c;
+}
+.botAgendar {
+    
+    background-color: #8c5539;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-left: 55rem;
+    font-family: "Chivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+
+}
+.appointments a:hover {
+    background-color: #d17aa3;
+}
+
+.appointments div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.appointments h1{
+    
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.appointments h2 {
+    
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/*==================galeria==========*/
+
+.gallery {
+    background-color: #f9f9f9;
+}
+.gallery img {
+    width: 15rem;
+    height: auto;
+    
+}
+
+.gallery img{
+    width: 100%;
+}
+
+footer {
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
