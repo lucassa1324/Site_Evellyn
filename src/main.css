@@ -121,6 +121,14 @@ section {
   font-style: normal;
   color: #a7755c;
 }
+
+
+.servicos{
+  width: 30rem;
+  text-align: left;
+  margin-left: 40%;
+  margin-top: 2rem;
+}
 .botAgendar {
   background-color: #8c5539;
   color: white;
@@ -149,6 +157,7 @@ section {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+  font-weight: bold;
 }
 
 .appointments h2 {

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+header {
+    font-size: 20px;
+    border-bottom: 1px solid rgb(64, 67, 80);
+    height: 20rem;
+
+  }
+  
+.siga{
+  width: 20rem;
+}
+
+.navegacao{
+  width: 30rem;
+  padding-left: 2rem;
+  font-family: "Chivo", sans-serif;
+  font-weight: 300;
+  color:  rgb(64, 67, 80);
+}
+
+.titulo{
+  color: rgb(156, 94, 6);
+}
+
+.redes{
+
+  color:  rgb(64, 67, 80);
+
+}
+
+  header img {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  header nav {
+    width: 33rem;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    width: 36rem;
+  }
+  
+  
+  header nav a {
+    
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 20px;
+  }
+
+
+
+  

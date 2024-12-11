@@ -7,6 +7,11 @@ export default defineConfig({
     return [
     
     {
+        source: '/cabecalho',
+        destination: '/cabecalho.css', 
+        permanent: false,  
+    },
+    {
         source: '/',
         destination: '/index.html', // Redireciona para o index.html na raiz
         permanent: false,

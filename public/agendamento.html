@@ -3,48 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../src/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/cabecalho.css">
     <link rel="shortcut icon" href="../images/Evellyn Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/agendamento.css">
-    <title>Agendamentos</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+
+
+    <title>Agendamento</title>
 </head>
 <body>
-    <section class="bg-photo min-h-[60vh] p-12">
-        <header class="h-[150px] flex items-center justify-between">
-            <div class="flex items-center gap-4">
-                <img src="../images/Evellyn Logo.png" alt="" class="">
-
-                <h1 class="font-normal text-4xl">STUDIO EVELLYN BARROS</h1>
+    <section class="cabecalho p-12 ">
+        
+        <div class="linha w-full h-4 bg-orange-300"></div>
+       
+        <header class="flex items-center justify-between font-chivo ">  
+            
+            <nav class="navegacao font-light font-chivo">
+                <a href="/" class="navegacao">Início</a>
+                <a href="#gallery" class="navegacao">Galeria</a>
+                <a href="#about" class="navegacao">Sobre</a>
+            </nav>
+            
+            <div class="flex items-center gap-4 ">                   
+                <img src="../images/Evellyn Logo.png" alt="" class=" ">
+                <h1 class="titulo font-chivo text-4xl font-thin">STUDIO EVELLYN BARROS</h1>
+                
             </div>
 
-
-            <nav>
-                <a href="/">Início</a>
-                <a href="#gallery">Galeria</a>
-                <a href="#about">Sobre</a>
-                <a href="#appointments">Agendamentos</a>
-            </nav>
+            <div class="text-neutral-600 font-chivo">
+                <div class="grid gap-4 place-items-start ">
+                    <div class="siga text-xs uppercase text-neutral-600">
+                        SIGA-NOS nas redes sociais
+                    </div>
+                    <div class=" text-neutral-600">
+                        <a href="https://instagram.com/">
+                            <i class="redes ph ph-instagram-logo text-2xl"></i>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="redes ph ph-tiktok-logo text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>   
         </header>
 
-        <div class="grid place-items-center mt-20 font-chivo text-white">
-            <span class="text-xs">Leve como o ar</span>
-            <span class="text-3xl max-w-[450px] text-center">Desenhos delicados e etéreos em sobrancelhas: arte feita
-                com
-                carinho e
-                precisão.</span>
-        </div>
     </section>
     
-    <section>
+    <section class="agendamento font-light font-chivo text-3xl  text-center">
+        
+        <h1 class="font-thin font-chivo">AGENDAMENTO</h1>
+        
 
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/lucassa1324/30min?text_color=975e41&primary_color=595a65" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+        
         <!-- Google Calendar Appointment Scheduling begin -->
-        <iframe class="bg-yellow-200" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1n-RIMSIaRSR_LalRGiMMTicpq565tsODBcNGEw0rrHIFklMgVOMXJc1hyL6Kreb6_EjU-zEMT?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+        
+        <!--<iframe class="bg-yellow-200" src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1n-RIMSIaRSR_LalRGiMMTicpq565tsODBcNGEw0rrHIFklMgVOMXJc1hyL6Kreb6_EjU-zEMT?gv=true" style="border: 0" width="100%" height="1100" frameborder="0"></iframe>!-->
+        
         <!-- end Google Calendar Appointment Scheduling -->
 
     </section>
 
+    <footer class="flex flex-col w-full h-96 p-16 gap-4 font-chivo">
+        <div class="my-16 flex justify-around">
+            <span>Novidades em sobrancelhas? Fique por dentro!</span>
 
+            <div class="flex gap-36">
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        Páginas
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="pages/agendamento.html">Agendamento</a>
+                        <a href="pages/galeria.html">Galeria</a>
+                        <a href="pages/">Sobre</a>
+                    </div>
+                </div>
+
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        SIGA-NOS nas redes sociais
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="https://instagram.com/">
+                            <i class="ph ph-instagram-logo text-2xl"></i>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <i class="ph ph-tiktok-logo text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            &copy; 2024 Lucas Sá - Todos os direitos reservados.
+        </div>
+    </footer>
+</body>
     
 </body>
 </html>
