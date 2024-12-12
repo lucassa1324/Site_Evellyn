@@ -12,6 +12,10 @@ export default defineConfig({
         permanent: false,  
     },
     {
+      source: '/css/:path*',
+      destination: '/css/:path*',
+    },
+    {
         source: '/',
         destination: '/index.html', // Redireciona para o index.html na raiz
         permanent: false,
@@ -23,5 +27,10 @@ export default defineConfig({
         permanent: false,
       },
     ];
+  },
+
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname);
+    return config;
   },
 });
