@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../src/css/cabecalho.css">
-    <link rel="stylesheet" href="../src/css/agendamento.css">
-    <link rel="shortcut icon" href="../images/Evellyn Logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../src/main.css">
+    <link rel="stylesheet" href="../public/css/footer.css">
+    <link rel="stylesheet" href="../public/css/cabecalho.css">
+    <link rel="stylesheet" href="../public/css/agendamento.css">
+    <link rel="shortcut icon" href="../public/images/Evellyn Logo.png" type="image/x-icon">
+    
 
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
@@ -56,35 +56,40 @@
     </section>
 
     <!-- Rodapé -->
-    <footer class="flex flex-col w-full bg-gray-800 text-white p-6 md:p-16 gap-6">
-        <div class="my-8 flex flex-col md:flex-row justify-between items-center gap-6">
-            <span class="text-center md:text-left">Novidades em sobrancelhas? Fique por dentro!</span>
+    <footer class="flex flex-col w-full h-96 p-16 gap-4 font-chivo">
+        <div class="my-16 flex justify-around">
+            <span>Novidades em sobrancelhas? Fique por dentro!</span>
 
-            <div class="flex flex-col md:flex-row gap-6">
-                <div class="flex flex-col gap-4">
-                    <div class="text-xs uppercase">Páginas</div>
-                    <div class="flex flex-col gap-2">
-                        <a href="pages/agendamento.html" class="hover:underline">Agendamento</a>
-                        <a href="pages/galeria.html" class="hover:underline">Galeria</a>
-                        <a href="pages/" class="hover:underline">Sobre</a>
+            <div class="flex gap-36">
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        Páginas
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="pages/agendamento.html">Agendamento</a>
+                        <a href="pages/galeria.html">Galeria</a>
+                        <a href="pages/">Sobre</a>
                     </div>
                 </div>
 
-                <div class="flex flex-col gap-4">
-                    <div class="text-xs uppercase">Siga-nos nas redes sociais</div>
-                    <div class="flex gap-4">
-                        <a href="https://instagram.com/" class="hover:text-gray-400">
+                <div class="grid gap-4 place-items-start">
+                    <div class="text-xs uppercase">
+                        SIGA-NOS nas redes sociais
+                    </div>
+                    <div class="grid place-items-start">
+                        <a href="https://instagram.com/">
                             <i class="ph ph-instagram-logo text-2xl"></i>
                         </a>
-                        <a href="https://instagram.com/" class="hover:text-gray-400">
+                        <a href="https://www.tiktok.com/@evellynn.barros?_t=8s4crG0QQoI&_r=1">
                             <i class="ph ph-tiktok-logo text-2xl"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="text-center">&copy; 2024 Lucas Sá - Todos os direitos reservados.</div>
+        <div>
+            &copy; 2024 Lucas Sá - Todos os direitos reservados.
+        </div>
     </footer>
 </body>
 </html>
