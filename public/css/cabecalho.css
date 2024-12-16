@@ -31,10 +31,10 @@ header {
 
 }
 
-  header img {
-    width: 5rem;
-    height: 5rem;
-  }
+header img {
+  width: 5rem;
+  height: 5rem;
+}
   
   header nav {
     width: 33rem;
