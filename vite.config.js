@@ -5,4 +5,5 @@ export default defineConfig({
   build: {
     outDir: "dist", // Pasta de saída da build
   },
+  
 });
