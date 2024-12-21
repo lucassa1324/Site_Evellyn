@@ -5,9 +5,9 @@
 
 
 body {
-  width: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Chivo', sans-serif;
 }
 
 .bg-photo {
@@ -134,7 +134,6 @@ section {
   margin-top: 15px;
   font-size: 18px;
   border-radius: 2px;
-  margin-left: 55rem;
   font-family: "Chivo", sans-serif;
   font-weight: 400;
   font-style: normal;
