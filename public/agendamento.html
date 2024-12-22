@@ -16,9 +16,9 @@
 </head>
 <body>
     <!-- Cabeçalho -->
-    <section class="cabecalho p-6 md:p-12 ">
+    <section class="cabecalho ">
         <div class="linha w-full h-12 "></div>
-        <header class="flex flex-col md:flex-row md:items-center md:justify-between font-chivo gap-4">
+        <header class="flex p-6 md:p-12 flex-col md:flex-row md:items-center md:justify-between font-chivo gap-4">
             <!-- Navegação -->
             <nav class="navegacao font-light flex gap-4 text-sm md:text-base justify-center md:justify-start md:flex-grow ">
                 <a href="/" class="hover:underline">Início</a>
@@ -58,30 +58,26 @@
 
     <!-- Rodapé -->
     <footer class="flex flex-col w-full h-96 p-16 gap-4 font-chivo">
-        <div class="my-16 flex justify-around">
+        <div class="my-8 flex flex-wrap justify-around items-center gap-8">
             <span>Novidades em sobrancelhas? Fique por dentro!</span>
 
-            <div class="flex gap-36">
-                <div class="grid gap-4 place-items-start">
-                    <div class="text-xs uppercase">
-                        Páginas
-                    </div>
-                    <div class="grid place-items-start">
-                        <a href="pages/agendamento.html">Agendamento</a>
-                        <a href="pages/galeria.html">Galeria</a>
-                        <a href="pages/">Sobre</a>
+            <div class="flex gap-16">
+                <div class="grid gap-4">
+                    <div class="text-xs uppercase font-bold">Páginas</div>
+                    <div class="grid gap-2">
+                        <a href="pages/agendamento.html" class="hover:underline">Agendamento</a>
+                        <a href="pages/galeria.html" class="hover:underline">Galeria</a>
+                        <a href="pages/" class="hover:underline">Sobre</a>
                     </div>
                 </div>
 
-                <div class="grid gap-4 place-items-start">
-                    <div class="text-xs uppercase">
-                        SIGA-NOS nas redes sociais
-                    </div>
-                    <div class="grid place-items-start">
-                        <a href="https://instagram.com/">
+                <div class="grid gap-4">
+                    <div class="text-xs uppercase font-bold">Siga-nos nas redes sociais</div>
+                    <div class="flex gap-4">
+                        <a href="https://instagram.com/" class="hover:text-blue-500">
                             <i class="ph ph-instagram-logo text-2xl"></i>
                         </a>
-                        <a href="https://www.tiktok.com/@evellynn.barros?_t=8s4crG0QQoI&_r=1">
+                        <a href="https://www.tiktok.com/@evellynn.barros?_t=8s4crG0QQoI&_r=1" class="hover:text-blue-500">
                             <i class="ph ph-tiktok-logo text-2xl"></i>
                         </a>
                     </div>

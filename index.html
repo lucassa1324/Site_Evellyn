@@ -13,15 +13,15 @@
     <title>Studio Evellyn Barros</title>
 </head>
 
-<body class="overflow-x-hidden w-full">
-    <section class="bg-photo min-h-[60vh] p-12">
+<body class="">
+    <section class="bg-photo min-h-[60vh] md:p-12">
         <header class="h-[150px] flex items-center justify-between flex-wrap gap-4">
             <div class="flex items-center gap-4">
                 <img src="/images/Evellyn Logo.png" alt="Logo Studio Evellyn" class="w-16 h-auto">
-                <h1 class="titulo font-normal text-4xl text-center">STUDIO EVELLYN BARROS</h1>
+                <h1 class="titulo font-normal text-xl md:text-4xl text-center">STUDIO EVELLYN BARROS</h1>
             </div>
 
-            <nav class="flex gap-4 text-sm">
+            <nav class=" hidden md:flex gap-4 text-sm">
                 <a href="#philosophy" class="hover:underline">Início</a>
                 <a href="#gallery" class="hover:underline">Galeria</a>
                 <a href="#about" class="hover:underline">Sobre</a>
@@ -30,36 +30,36 @@
         </header>
 
         <div class="grid place-items-center mt-20 font-chivo text-white text-center">
-            <span class="text-xs">Leve como o ar</span>
-            <span class="text-3xl max-w-[450px]">Desenhos delicados e etéreos em sobrancelhas: arte feita com carinho e precisão.</span>
+            <span class="md:text-xs">Leve como o ar</span>
+            <span class="md:text-3xl max-w-[450px]">Desenhos delicados e etéreos em sobrancelhas: arte feita com carinho e precisão.</span>
         </div>
     </section>
 
 
     <section id="philosophy" class="philosophy philosophy flex flex-wrap items-center justify-center gap-8 p-8">
-        <div class="filosofia max-w-lg">
-            <span class="filosofia_texto max-w-lg">
-                <h2 class="text-2xl font-bold mb-4">Nossa Filosofia</h2>
-                <p>No Studio Evellyn Barros, acreditamos em realçar a beleza natural de cada cliente com cuidado,
+        <div class="filosofia flex flex-col md:flex-row w-fit ">
+            <span class="filosofia_texto max-w-lg p-2">
+                <h2 class="md:text-5xl font-bold mb-4">Nossa Filosofia</h2>
+                <p class="md:text-3xl">No Studio Evellyn Barros, acreditamos em realçar a beleza natural de cada cliente com cuidado,
                     dedicação e técnicas modernas.</p>
             </span>
-            <img src="/images/Evellyn.jpeg" alt="" class="max-w-md h-auto rounded-lg shadow-lg">
+            <img src="/images/Evellyn.jpeg" alt="" class=" md:max-w-lg">
         </div>
     </section>
 
     <section id="appointments" class="appointments p-8 text-center">
         <span class=" ">
-            <h1 class="font-light font-bold">NOSSOS SERVIÇOS</h1>
+            <h1 class="font-light font-bold md:text-3xl">NOSSOS SERVIÇOS</h1>
             <ul class="servicos p-2 list-disc  ">
-                <li class="">Design de Sobrancelha com Henna</li>
-                <li class="">Design de Sobrancelha Simples</li>
-                <li class="">Buço</li>
+                <li class="md:text-3xl">Design de Sobrancelha com Henna</li>
+                <li class="md:text-3xl">Design de Sobrancelha Simples</li>
+                <li class="md:text-3xl">Buço</li>
             </ul>
         </span>
 
         <div class="flex flex-col items-center gap-4">
-            <a href="/agendamento.html" class="text-xl  hover:underline">AGENDE JÁ SEU HORÁRIO!</a>
-            <a href="/agendamento.html" class="botAgendar px-6 py-3  text-white rounded-lg hover:bg-blue-600">AGENDAR HORÁRIO</a>
+            <a href="/agendamento.html" class="md:text-3xl  hover:underline">AGENDE JÁ SEU HORÁRIO!</a>
+            <a href="/agendamento.html" class="botAgendar px-6 py-3  text-white rounded-lg ">AGENDAR HORÁRIO</a>
         </div>
     </section>
 

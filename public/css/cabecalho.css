@@ -8,14 +8,8 @@ header {
     height: 20rem;
 
   }
-  
-.siga{
-  width: 20rem;
-}
 
 .navegacao{
-  width: 30rem;
-  padding-left: 2rem;
   font-family: "Chivo", sans-serif;
   font-weight: 300;
   color:  rgb(64, 67, 80);
@@ -36,17 +30,13 @@ header img {
   height: 5rem;
 }
   
-  header nav {
-    width: 33rem;
-  }
-  
   header h1 {
     text-align: center;
     font-family: "Chivo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    width: 36rem;
+    
   }
   
   
@@ -62,9 +52,7 @@ header img {
   header nav a:hover {
     text-decoration: underline;
   }
-  section {
-    padding: 20px;
-  }
+
 
 
 

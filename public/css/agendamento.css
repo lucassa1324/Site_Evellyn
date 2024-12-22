@@ -3,7 +3,7 @@
 
 
 .cabecalho{
-    padding: 1rem;
+
     width: 100%;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);

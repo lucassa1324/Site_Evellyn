@@ -27,9 +27,6 @@ header img {
   height: 5rem;
 }
 
-header nav {
-  width: 33rem;
-}
 
 header p {
   font-family: "Chivo", sans-serif;
@@ -44,7 +41,6 @@ header h1 {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  width: 36rem;
 }
 
 .bg-photo p {
@@ -53,7 +49,7 @@ header h1 {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  width: 36rem;
+ 
 }
 
 header nav a {
@@ -80,7 +76,6 @@ section {
 /* ===================Filosofia ==================== */
 .philosophy {
   background-color: #414350;
-  height: 600px;
 }
 
 .philosophy h2 {
@@ -91,10 +86,8 @@ section {
 }
 
 .filosofia {
-  max-width: 800px;
-  width: 600;
+  
   margin: 1rem auto;
-  padding-left: 2rem;
   font-family: "Gentium Plus", serif;
   color: rgb(64, 67, 80);
   display: flex;
@@ -102,10 +95,6 @@ section {
   background-color: #f9f9f9;
   text-align: left;
   align-items: center;
-}
-
-.Evellyn {
-  width: 400px;
 }
 
 /*==========agendamento============*/
@@ -121,7 +110,7 @@ section {
 
 
 .servicos{
-  width: 30rem;
+ 
   text-align: left;
   margin-left: 40%;
   margin-top: 2rem;
@@ -169,7 +158,7 @@ section {
   background-color: #f9f9f9;
 }
 .gallery img {
-  width: 15rem;
+  
   height: auto;
 }
 
